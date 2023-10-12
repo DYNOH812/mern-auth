@@ -21,7 +21,7 @@ app.listen(3000,() => {
 //path: api/index.js
 
 app.use('/api/user', userRoutes);
-app.use('/api/auth', authRoutes);
+app.use("/api/auth", authRoutes)
 
 //middleware
 
